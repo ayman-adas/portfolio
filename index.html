@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayman Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="section">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hi, I'm Ayman Adas, a professional Flutter Development, Machine Learning, and Database developer.</p>
+        </section>
+
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>My name is Ayman Adas. I am from Amman, Jordan. I am a student at the Jordan University of Science and Technology, majoring in Computer Information Systems with a 3.92 GPA.</p>
+            <p>You can contact me at <a href="mailto:aymanhaniadas28@gmail.com" class="contact-link">aymanhaniadas28@gmail.com</a> or <a href="tel:+962799196171" class="contact-link">+962799196171</a>.</p>
+            <p>I have many professional skills in coding and development. Here are some of them:</p>
+            <ul>
+                <li>Flutter Development</li>
+                <li>Machine Learning</li>
+                <li>Database Development</li>
+                <!-- Add more skills as needed -->
+            </ul>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Fruit Salad</h3>
+                <p>An eCommerce application providing various services such as buying, selling, and contacting. Built with Flutter, Firebase, and sqflite.</p>
+                <ul>
+                    <li>Used Flutter for building the user interface</li>
+                    <li>Integrated Firebase for user authentication and real-time data storage</li>
+                    <li>Used sqflite for local data storage</li>
+                </ul>
+            </div>
+            <div class="project">
+                <h3>Smoking Detection</h3>
+                <p>A data science project for detecting smoking. Includes preprocessing, model building, and prediction.</p>
+                <ul>
+                    <li>Preprocessed the data using various techniques such as normalization and feature scaling</li>
+                    <li>Built a machine learning model using various algorithms such as decision trees and random forests</li>
+                    <li>Predicted the smoking status of new samples using the built model</li>
+                </ul>
+            </div>
+            <!-- Add more projects as needed -->
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <form action="mailto:aymanhaniadas28@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+           </section>
+
+    <footer>
+        <p>&copy; 2024 Ayman Adas. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
